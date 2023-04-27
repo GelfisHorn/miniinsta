@@ -13,6 +13,7 @@ pnpm install
 ```
 
 - replace env variables
+  note that for EMAIL and PASSWORD you will need a google account with 2FA enabled and a application password, you can enable it [here](https://myaccount.google.com/security)
 
 ```env
 DATABASE_URL="mysql://USER:PASSWORD@HOST:PORT/DATABASE"
