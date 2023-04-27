@@ -2,7 +2,7 @@
 
 Full-stack clone of Instagram website, with a personal touch on UI.
 
-Visit the site on [helphistech-miniinsta.vercel.app](https://helphistech-miniinsta.vercel.app).
+Visit the site on [helphistech-insta.vercel.app](https://helphistech-insta.vercel.app).
 
 ## Get the project running
 
