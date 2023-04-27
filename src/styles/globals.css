@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply text-zinc-200 bg-main-black overflow-hidden;
+}
+
+.input {
+	@apply py-3 px-3 rounded-lg bg-transparent focus:bg-white/5 outline outline-1 outline-zinc-700;
+}
+
+.nav-action {
+	@apply flex gap-4 items-center hover:bg-white/5 px-4 py-3 rounded-md transition-colors ease-out cursor-pointer;
+}
+.nav-action-active {
+	@apply flex gap-4 items-center bg-main-accent px-4 py-3 rounded-md transition-colors ease-out cursor-pointer;
+}
+
+.post-actions {
+	@apply hover:text-main-accent transition-colors ease-out;
+}
+
+.button {
+	@apply bg-zinc-800 hover:bg-opacity-75 rounded-lg;
+}
+.button-light {
+	@apply bg-main-accent hover:bg-opacity-75 rounded-lg;
+}
+.button-light-variant {
+	@apply bg-main-accent-variant hover:bg-opacity-75 rounded-lg;
+}
+
+.anim-skeleton {
+	animation: skeleton 1400ms infinite ease-in-out;
+}
+@keyframes skeleton {
+	0% {
+		@apply bg-zinc-800;
+	}
+	50% {
+		background-color: rgb(50 50 54);
+	}
+	0% {
+		@apply bg-zinc-800;
+	}
+}
+
+.custom-rotate {
+	animation: spin 3s linear infinite;
+}
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
